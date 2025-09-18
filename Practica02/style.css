@@ -1,0 +1,54 @@
+/* Estilo general de la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+
+
+/* Título principal */
+h1 {
+  text-align: center;
+  color: #d35400;
+}
+
+/* Subtítulos */
+h2 {
+    text-align: center;
+  color: #2980b9;
+  margin-top: 20px;
+}
+
+/* Imagen */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+/* Listas */
+ul, ol {
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+  padding-left: 20px;
+}
+
+/* Párrafo */
+p {
+
+  max-width: 400px;
+  margin: 30px auto;
+  text-align: justify;
+}
+
+/* Tiempo */
+time {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #27ae60;
+}

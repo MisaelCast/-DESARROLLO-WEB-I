@@ -1,0 +1,70 @@
+#titulo {
+    text-align: center;
+  color: rgb(14, 32, 90);
+  font-size: 36px; /* ejemplo: cambiar tamaño */
+}
+header {
+  background-color: rgba(177, 192, 108, 0.918);
+  padding: 10px 0;
+}
+
+h1{
+    color: brown;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente (si tuviera altura fija) */
+  list-style: none;
+  gap: 40px;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around; /* separa las secciones */
+  align-items: flex-start;       /* alinea arriba */
+}
+
+section {
+  width: 30%;   /* cada sección ocupa un ancho */
+}
+
+
+article, table {
+  display: block;
+  margin-bottom: 25px; /* espacio entre cada tabla */
+}
+table {
+    margin-top: 15px;
+  margin-bottom: 25px;
+  margin: 20px auto;         /* centra la tabla en la hoja */
+  border-collapse: collapse; /* quita espacios entre bordes */
+  text-align: center;        /* centra el texto dentro de cada celda */
+  font-family: Arial, sans-serif;
+  gap: 10px;
+  
+  
+}
+
+.destacado {
+  color: rgb(92, 6, 6);
+  
+}
+
+
+th, td {
+  border: 1px solid black;  /* bordes */
+  padding: 10px;            /* espacio interno */
+}
+
+footer {
+  background-color: rgba(177, 192, 108, 0.918);
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+

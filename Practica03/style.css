@@ -1,0 +1,29 @@
+/* ===============================
+   Encabezados
+   =============================== */
+h1 {
+  color: #ffd700;          /* dorado */
+  font-size: 40px;         /* un poco más grande */
+  text-align: center;      /* centrado en la página */
+  margin-bottom: 30px;     /* espacio debajo del título */
+}
+
+h3 {
+  color: #1e90ff;          /* azul */
+  font-size: 26px;         /* tamaño ligeramente más grande */
+  margin-top: 20px;        /* espacio arriba del subtítulo */
+  margin-bottom: 10px;     /* espacio debajo del subtítulo */
+}
+
+/* ===============================
+   Párrafos
+   =============================== */
+p {
+  background-color: #333;  /* gris oscuro */
+  color: #fff;             /* texto blanco */
+  padding: 12px 15px;      /* más espacio interno */
+  border-radius: 6px;      /* bordes un poco más redondeados */
+  margin-bottom: 15px;     /* espacio debajo del párrafo */
+  line-height: 1.5;  
+  max-width: 50%;      /* mejor lectura del texto */
+}

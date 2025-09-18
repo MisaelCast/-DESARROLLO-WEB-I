@@ -1,0 +1,54 @@
+/* estilos.css - fondo negro y texto blanco */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #000; /* fondo negro */
+    color: #fff; /* texto blanco */
+}
+
+h1 {
+    font-size: 50px;
+    color: #fff; /* título principal blanco */
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #ccc; /* un gris claro para el subtítulo */
+}
+
+p {
+    font-size: small;
+    max-width: 300px;
+    margin: 10px auto;
+    text-align: justify;
+    color: #eee; /* un gris suave para el párrafo */
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    width: 200px; /* ajusta según tu imagen */
+    border: 2px solid #fff; /* opcional, para que destaque la imagen */
+}
+
+a {
+        display: block;      /* convierte el enlace en bloque */
+    text-align: center;  /* centra el texto dentro del bloque */
+    color: #1e90ff;
+    text-decoration: none;
+    margin: 10px auto;   /* centra el bloque horizontalmente */
+    color: #1e90ff; /* enlaces en azul */
+    text-decoration: none;
+text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+   width: 2.5%;          /* ancho al 50% del contenedor */
+    margin: 20px auto;   /* centra horizontalmente */
+    border: 1px solid #fff; /* línea blanca */
+}
